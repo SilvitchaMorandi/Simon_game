@@ -98,7 +98,7 @@ function animatePress(currentColor) {
 /* Creating a new object to add and play sounds */
 
 function playSound(name) {
-  var audio = new Audio("sounds/" + name + ".mp3");
+  var audio = new Audio(name + ".mp3");
   audio.play();
 }
 
